@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majalik - New Way To Learn</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav-icon.png">
+</head>
+
+<body>
+    <section id="navbar">
+        <div>
+            <div class="navbar-menu">
+                <button class="dropbtn"><i class='fas fa-bars'></i></button>
+                <div class="dropdown-content">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </div>
+            </div>
+        </div>
+        <a href="#"><img src="images/main-logo.png" class="logo"></a>
+    </section>
+    <section id="header">
+        <h1>Majalik.com</h1>
+        <h2>New Way to Learn</h2>
+        <button>Learn More</button>
+    </section>
+    <section class="services">
+        <div class="service">
+            <img src="images/services/attend-events.svg">
+            <div class="text-box">
+                <p>Attend Events</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/services/volunteer.svg">
+            <div class="text-box">
+                <p>Volunteer</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/services/apply-for-jobs.svg">
+            <div class="text-box">
+                <p>Apply For Jobs</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/services/make-connections.svg">
+            <div class="text-box">
+                <p>make connections</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured-events">
+        <h1>Explore Events</h1>
+        <p class="event-sub-header">Search and browse the latest current events</p>
+        <input type="text" id="search" onkeyup="search()" placeholder="Search for event..">
+        <div class="event-container">
+            <div class="event-card">
+                <img src="images/events/cairo-art-fair.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> Km 28, Cairo-Alex Desert Rd.</h3>
+                    <p class="event-title">CAIRO ART FAIR WEST | 10th Edition</p>
+                    <p class="event-price">FREE</p>
+                    <a class="cart-button" href="https://www.facebook.com/share/17fneyzfkT/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="images/events/womens-imaging-update.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> Sofitel El Gezirah Hotel</h3>
+                    <p class="event-title">Women’s Imaging Update 2025</p>
+                    <p class="event-price">FREE</p>
+                    <a class="cart-button" href="https://www.facebook.com/share/15or7UXbAT/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="images/events/14th-MIMA-2025.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> Tolip Hotel El Narges</h3>
+                    <p class="event-title">14th MIMA 2025</p>
+                    <p class="event-price">FREE</p>
+                    <a class="cart-button" href="https://www.facebook.com/share/1DqSohc55h/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="images/events/SECC-Tech-Night.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> Creativa Innovation Hubs</h3>
+                    <p class="event-title">SECC Tech Night</p>
+                    <p class="event-price">PAID</p>
+                    <a class="cart-button" href="https://www.facebook.com/share/1DTaiTdAAe/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="images/events/Freelancers-Union-EG-The-annual-event-define-tomorrow.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> The GrEEK Campus</h3>
+                    <p class="event-title">Freelancers Union-EG</p>
+                    <p class="event-price">FREE</p>
+                    <a class="cart-button" href="https://www.facebook.com/share/185PaVk4wA/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="images/events/DIGISIGN.jpg">
+                <div class="event-info">
+                    <h3><i class="fa fa-map-pin"></i> Cairo International Fair</h3>
+                    <p class="event-title">DIGISIGN / DIGITEX 2024</p>
+                    <p class="event-price">FREE</p>
+                    <a class="cart-button" href="https://digisignafrica.com/visitors/">
+                        Attend
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="col">
+            <img class="logo" src="images/main-logo.png">
+            <h4>Contact Us</h4>
+            <p><strong>Address: </strong> New Cairo - Fifth Settlement - South Lotus - El Nasr Street.</p>
+            <p><strong>Phone: </strong> +201205455660</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00. Mon - Sat</p>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Made by Kareem Hamdi, Maryam Mahmoud and Jonier Gerges.</p>
+        </div>
+    </footer>
+
+    <script>
+        function search() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const cards = document.getElementsByClassName('event-card');
+            for (let i = 0; i < cards.length; i++) {
+                const title = cards[i].getElementsByTagName('p')[0].textContent.toLowerCase();
+                if (title.includes(searchTerm)) {
+                    cards[i].style.display = '';
+                } else {
+                    cards[i].style.display = 'none';
+                }
+            };
+        };
+    </script>
+</body>
+
+</html>
